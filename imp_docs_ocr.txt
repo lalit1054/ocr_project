@@ -1,0 +1,6 @@
+docker build -t easyocr-app:v1.1 .
+
+
+
+docker run --rm -p 8000:8000 -p 8501:8501 --name easyocr-app easyocr-app:v1.1
+
